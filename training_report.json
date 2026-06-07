@@ -1,0 +1,50 @@
+{
+  "test_accuracy": 1.0,
+  "roc_auc": 1.0,
+  "cv_mean": 1.0,
+  "cv_std": 0.0,
+  "train_samples": 51,
+  "test_samples": 13,
+  "features": [
+    "a_rolling_win_rate",
+    "b_rolling_win_rate",
+    "diff_rolling_wr",
+    "a_h2h_win_rate",
+    "b_h2h_win_rate",
+    "a_avg_score_diff",
+    "b_avg_score_diff",
+    "diff_score",
+    "a_win_streak",
+    "b_win_streak",
+    "diff_streak",
+    "a_team_encoded",
+    "b_team_encoded"
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 6.0
+    },
+    "1": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 7.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 13.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 13.0
+    }
+  }
+}
